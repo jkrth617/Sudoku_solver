@@ -8,7 +8,7 @@
   <script type="text/javascript" src = "javascripts/application.js"></script>
   <link rel="stylesheet" type="text/css" href="stylesheets/sudoku.css"></head>
 <body>
-<div>Jake sudoku solver</div>
+<div>Jake's sudoku solver</div>
 <div id = "col1">
   <form>
     <% 9.times do |i|%>
@@ -19,7 +19,9 @@
   </form>
 </div>
 <div id = "col2">
+  <button id = "clear">clear</button>
   <button id = "solve">solve</button>
+  <div id = "error">Error in solving the board. make sure the board you entered is valid and that you only entered numbers between 1 and 9</div>
 </div>
 </body>
 </html>
